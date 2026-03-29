@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo 'static site — skip npm install'",
+  "buildCommand": "node -e \"require('fs').accessSync('public/css/styles.css'); require('fs').accessSync('public/js/app.js');\"",
+  "outputDirectory": "public"
+}
